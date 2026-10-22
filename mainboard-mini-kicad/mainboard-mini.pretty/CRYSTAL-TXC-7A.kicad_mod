@@ -1,0 +1,105 @@
+(footprint "CRYSTAL-TXC-7A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.149 -2.1915 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e4b1c97-8774-48fd-aea6-5888b319ad50")
+		(effects
+			(font
+				(size 0.986089 0.986089)
+				(thickness 0.029911)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "8MHz"
+		(at -1.016 0.508 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "951dea17-e161-4820-94e1-03ce2fea3eaf")
+		(effects
+			(font
+				(size 0.376489 0.376489)
+				(thickness 0.029911)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45f2deeb-b66e-406d-9131-a1f7e5ce0fab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b4499dc-9c44-41a7-b630-f65623ff58ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -1.6)
+		(end 2.6 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47b76f6c-feb7-4e91-a7e0-b0a6f778ef5c")
+	)
+	(fp_line
+		(start 2.6 1.6)
+		(end -2.6 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a0c2592-fc36-44ae-895f-1afdc678bc68")
+	)
+	(fp_rect
+		(start -2.95 -1.95)
+		(end 2.95 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9aa14f8d-0a74-4a8d-9f75-5df38adfde99")
+	)
+	(pad "P$1" smd rect
+		(at 1.85 0)
+		(size 1.7 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d7246ea5-d239-4cbb-b904-3fa14d3e11ab")
+	)
+	(pad "P$2" smd rect
+		(at -1.85 0)
+		(size 1.7 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0762)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "15be7298-c722-43be-8517-370f4e42d1e5")
+	)
+	(embedded_fonts no)
+)

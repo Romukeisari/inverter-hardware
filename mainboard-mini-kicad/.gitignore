@@ -1,0 +1,24 @@
+# KiCad local history, backups and lock files
+.history/
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+_autosave-*
+*.kicad_prl
+
+# DRC / ERC reports
+*.rpt
+
+# Fab outputs and archives (regenerate from the PCB)
+Gerber_file/
+Mini_main_*/
+*.gbrjob
+*.zip
+
+# Assembly data, BOM exports and local notes (kept out of the repo)
+Claude.md
+*.xlsx
+mainboard-mini.csv
+*-pos.csv
+mainboard-mini_original.pdf

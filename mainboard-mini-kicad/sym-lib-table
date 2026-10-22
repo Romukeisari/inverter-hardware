@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "mainboard-mini-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/mainboard-mini-eagle-import.kicad_sym") (options "") (descr ""))
+)

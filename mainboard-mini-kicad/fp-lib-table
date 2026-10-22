@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mainboard-mini") (type "KiCad") (uri "${KIPRJMOD}/mainboard-mini.pretty") (options "") (descr ""))
+)
